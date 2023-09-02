@@ -7,7 +7,7 @@ module.exports = {
     networks: {
         goerli: {
             provider: () => new HDWalletProvider(MNEMONIC, PROJECT_ID), // Corrected IPROJECT_ID to PROJECT_ID
-            network_id: "5", // Goerli's id
+            network_id: "5", // Goerli's Id
             gas: 5500000,
             networkCheckTimeout: 10000, // Corrected networkCheckTimeoutnetworkCheckTimeout to networkCheckTimeout
             confirmations: 2,
